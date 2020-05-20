@@ -1,0 +1,97 @@
+@media screen and (max-width:560px ){
+  header .container {
+    text-align: center;
+  }
+  header {
+    height: 80px;
+  }
+  .logo {
+    width: 100%;
+    float: none;
+  }
+  .list {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  li {
+    float: none;
+    display: inline-block;
+  }
+  .about {
+    height: 500px;
+   }
+  .about .container {
+    display: block;
+  }
+  .about .container img {
+    width: 100%;
+  }
+  .about .container p {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+  .course {
+    text-align: center;
+  }
+  
+  .web-course {
+    display: block;
+  }
+  
+  .web {
+    width: auto;
+    margin: 0;
+   }
+  
+  .web img {
+    width: 100%;
+  }
+  
+  .web p {
+    text-align: left;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+
+  /* .contact {
+    height: 300px;
+    text-align: center;
+  } */
+  
+  /* .contact h2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  } */
+  
+  .text {
+    border: 2px solid silver;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px 0 10px 5px;
+  }
+  
+  .footer-btn {
+    color: white;
+    background-color: #ec6d64;
+    border: 1px solid #ec6d64;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    padding: 15px 0;
+  }
+  
+  footer .container {
+    height: 50px;
+    text-align: center;
+    border-top: 1px solid silver;
+    font-size: 12px;
+    padding-top: 15px;
+  }
+}
